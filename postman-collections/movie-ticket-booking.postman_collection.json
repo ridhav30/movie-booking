@@ -89,7 +89,7 @@
 			"description": "",
 			"collectionId": "811dc750-3b8d-6899-6b09-70851c0ba2c0",
 			"responses": [],
-			"rawModeData": "{\n\t\"name\":\"noon show\",\n\t\"time\":\"2 PM\",\n\t\"movie\":\"mayavi\",\n\t\"theatere\":\"zeenath\",\n\t\"image\":\"image/photo.jpg\"\n}"
+			"rawModeData": "{\n\t\"name\":\"noon show\",\n\t\"time\":\"2 PM\",\n\t\"movie\":\"mayavi\",\n\t\"place\":\"aluva\",\n\t\"image\":\"image/photo.jpg\"\n}"
 		},
 		{
 			"id": "b87f36dd-c122-18da-698d-44aac6c4ab3c",
