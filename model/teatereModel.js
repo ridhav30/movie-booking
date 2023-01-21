@@ -79,6 +79,9 @@ class Theatere {
                     ]
                 }
                 
+            },
+            {
+                $match: { "movies_info": { $ne: [] } }
             }
         ]).toArray()
         return listShows
@@ -100,6 +103,9 @@ class Theatere {
                     ]
                 }
                 
+            },
+            {
+                $match: { "locations": { $ne: [] } }
             }
         ]).toArray()
         return listShows
