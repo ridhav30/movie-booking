@@ -60,7 +60,7 @@ let theatereController = {
         try {
             let { name, time, movie, place, id } = req.body
             let updatedShow = await theatereModel.fnUpdtateShows(name, time, movie, place, id)
-            if (updatedShow.acknowledged) {
+            if (updatedShow.acknowledged && updatedShow.modifiedCount >0) {
                 let responseBody = new responseBodyHelper(200, updatedShow, true, 'successfully Updated')
                 return res.send(responseBody)
             }
