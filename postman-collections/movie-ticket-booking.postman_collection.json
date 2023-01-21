@@ -120,7 +120,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"rawModeData": "{\n\t\"name\":\"noon show1\",\n\t\"id\":\"63cb9227c83f25e2dd9c0bc9\",\n\t\"time\":\"3 PM\",\n\t\"movie\":\"63cb8e619a482e24d789661b\",\n\t\"theatere\":\"63cb8e5d9a482e24d789661a\"\n}"
+			"rawModeData": "{\n\t\"name\":\"noon show1\",\n\t\"id\":\"63cb9227c83f25e2dd9c0bc9\",\n\t\"time\":\"3 PM\",\n\t\"movie\":\"63cb8e619a482e24d789661b\",\n\t\"place\":\"63cb8e5d9a482e24d789661a\"\n}"
 		},
 		{
 			"id": "ba980da9-9e16-535b-0d02-fdf2f1df39e8",
