@@ -58,8 +58,8 @@ let theatereController = {
     },
     async fnUpdatingShow(req, res) {
         try {
-            let { name, time, movie, theatere, place, id } = req.body
-            let updatedShow = await theatereModel.fnUpdtateShows(name, time, movie, theatere, place, id)
+            let { name, time, movie, place, id } = req.body
+            let updatedShow = await theatereModel.fnUpdtateShows(name, time, movie, place, id)
             if (updatedShow.acknowledged) {
                 let responseBody = new responseBodyHelper(200, updatedShow, true, 'successfully Updated')
                 return res.send(responseBody)
